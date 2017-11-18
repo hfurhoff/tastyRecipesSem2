@@ -34,7 +34,7 @@ and open the template in the editor.
                     '<h2>Failed to login!</h2>
                     <p>Please try again</p>
                     <br>';
-                echo '<p>Dont have an account?<a href="signuppage.php">Create an account here!</a></p><br>';
+                echo '<p>Dont have an account? <a href="signuppage.php">Create an account here!</a></p><br>';
                 include 'loginform.php';
             ?>
         </section>

@@ -45,7 +45,7 @@ and open the template in the editor.
             <?php
                 if (!isset($_COOKIE["user"])) {
                     echo '<h2>Here you can log in!</h2>';
-                    echo '<p>Dont have an account?<a href="signuppage.php">Create an account here!</a></p><br>';
+                    echo '<p>Dont have an account? <a href="signuppage.php">Create an account here!</a></p><br>';
                     include 'loginform.php';
                 } else {
                     echo '<h2>You are logged in!</h2>';
