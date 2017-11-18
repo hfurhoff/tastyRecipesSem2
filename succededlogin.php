@@ -30,7 +30,6 @@ and open the template in the editor.
         </header>
         <section>
             <h2>You are logged in!</h2>
-            <br>
             <form name="logout" action="logout.php" method="post">
                 <input type="submit" value="Log out"/>
             </form>
